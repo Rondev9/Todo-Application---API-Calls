@@ -1,0 +1,11 @@
+GET http://localhost:3000/todos/?status=TO%20DO
+
+###
+GET http://localhost:3000/todos/?priority=HIGH&status=IN%20PROGRESS
+
+###
+
+PUT http://localhost:3000/todos/1/
+Content-Type: application/json
+
+{ "todo": "MAKE A CALL" }
